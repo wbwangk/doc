@@ -5,7 +5,7 @@ description: Community Site
 baseurl:
 url:
 twitter_username:
-github_username:  DataScienceSpecialization
+github_username:  wbwangk
 
 # Build settings
 markdown: kramdown
