@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-# 一个井号  短短的
 ## Table of Contents
 
 This site is meant to serve as a directory for the amazing content the
