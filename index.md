@@ -1,9 +1,7 @@
 ---
 layout: page
 ---
-
 # one hole
-## Table of Contents
 
 This site is meant to serve as a directory for the amazing content the
 community has created around the Data Science Specialization. If you are
