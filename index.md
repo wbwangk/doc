@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## one hole two hole
+## 两个井号
 
 This site is meant to serve as a directory for the amazing content the
 community has created around the Data Science Specialization. If you are
