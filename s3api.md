@@ -24,11 +24,8 @@ permalink: /s3api/
 ![](http://docs.aws.amazon.com/AmazonS3/latest/dev/images/s3_post.png)
 
 
-使用表单来上传文件,表单头:
-
+使用表单来上传文件,表单头: 
 `
 <form action="http://johnsmith.s3.amazonaws.com/" method="post"
-enctype="multipart/form-data">  
-
+enctype="multipart/form-data">
 `
-
