@@ -4,6 +4,27 @@ title: The Data Scientist's Toolbox
 permalink: /s3api/
 ---
 
+## Authenticating Requests (AWS Signature Version 4)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Command Line
 
 - [Working with files in Bash](http://edgarsh.es/ins/working-with-files-in-bash/)
