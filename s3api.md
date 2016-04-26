@@ -1,10 +1,9 @@
 ---
 layout: page
-title: The Data Scientist's Toolbox
+title: 对请求的认证(AWS Signature Version 4)
 permalink: /s3api/
 ---
 
-## 对请求的认证(AWS Signature Version 4)
 同S3的交互要么是认证的，要么是匿名的。本章解释如何使用亚马逊V4版本签名算法对请求进行认证。如果使用SDK则不用阅读本章，因为SDK客户端使用你提供的access key来认证请求。
 亚马逊V4签名提供的认证有：
 
