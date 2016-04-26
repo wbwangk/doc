@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Data Scientist's Toolbox
-permalink: /toolbox/
+permalink: /s3api/
 ---
 
 ## Command Line
