@@ -14,7 +14,22 @@ permalink: /s3api/
 
 - **方式重放攻击** 被签名的内容中有一个15分钟过期的时间戳
 
+### 认证方法
 
+- **http授权头** 在http请求头中放置Authorization是常用的认证S3请求的方法。除了基于浏览器的上传POST，所有S3 REST操作都需要这个头。
+- **请求参数** 签名以参数的形式放置在URL中。
+- **基于浏览器的POST上传(AWS Signature Version 2)** 
+
+下图解释了AWS S3 POST：
+
+![](http://docs.aws.amazon.com/AmazonS3/latest/dev/images/s3_post.png)
+
+
+使用表单来上传文件,表单头:
+```
+<form action="http://johnsmith.s3.amazonaws.com/" method="post"
+enctype="multipart/form-data">
+```
 
 
 
