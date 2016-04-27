@@ -27,8 +27,6 @@ permalink: /s3api/
 使用表单来上传文件,表单头: 
 
 ```
-
 <form action="http://johnsmith.s3.amazonaws.com/" method="post"
 enctype="multipart/form-data">
-
 ```
