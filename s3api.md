@@ -26,15 +26,11 @@ permalink: /s3api/
 
 使用表单来上传文件,表单头:
 
-<code>
+``` 
 
 <form action="http://johnsmith.s3.amazonaws.com/" method="post"
 
 enctype="multipart/form-data">
 
-</code>
-*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-    viverra nec, fringilla in, laoreet vitae, risus.
-*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-    Suspendisse id sem consectetuer libero luctus adipiscing.
+``` 
+  
