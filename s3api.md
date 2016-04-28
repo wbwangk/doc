@@ -13,7 +13,7 @@ permalink: /s3api/
 
 - **方式重放攻击** 被签名的内容中有一个15分钟过期的时间戳
 
-### 认证方法
+### 认证方法 ###
 
 - **http授权头** 在http请求头中放置Authorization是常用的认证S3请求的方法。除了基于浏览器的上传POST，所有S3 REST操作都需要这个头。
 - **请求参数** 签名以参数的形式放置在URL中。
@@ -23,10 +23,19 @@ permalink: /s3api/
 
 ![](http://docs.aws.amazon.com/AmazonS3/latest/dev/images/s3_post.png)
 
-
 使用表单来上传文件,表单头:
 ```
     <form action="http://johnsmith.s3.amazonaws.com/" method="post"
     enctype="multipart/form-data">
-```     
-    
+``` 
+
+### 签名请求介绍 ###
+你发送的认证请求中包含一个签名。AWS不是直接使用secret access key来签名，而是使用secret access key先生成一个sign key。
+
+![](http://docs.aws.amazon.com/AmazonS3/latest/API/images/signing-overview.png)
+
+（上图表达的sign key生成逻辑与stormpath的摘要认证算法类似，特征是多次散列迭代）
+
+AWS S3的签名算法很复杂，在应用程序中直接写很麻烦，可以靠下面两种办法代替手写程序：
+- 使用AWS SDK，里面内置了签名算法
+- 使用AWS [CLI](http://docs.aws.amazon.com/cli/latest/userguide/cli-s3.html) 发起API调用
