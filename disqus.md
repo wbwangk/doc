@@ -16,8 +16,10 @@ permalink: /disqus/
   首先，需要你进入SSO页面去配置远程域。
   
   要生成一个令牌传递给disqus。令牌分三部分：消息、签名、时间戳，即：
-  ···
+  ```
   this.page.remote_auth_s3 = '<message> <hmac> <timestamp>';
-  ···
+  ```
   消息的构成：id、username、email以及两个可选参数avatar（用户头像url）、url（用户个人网站url）。id要保证在disqus内的唯一行。
-  签名算法：··· HMAC->SHA1(secret_key, message + ' ' + timestamp) ··· 
+  签名算法：``` HMAC->SHA1(secret_key, message + ' ' + timestamp) ```
+  
+  
