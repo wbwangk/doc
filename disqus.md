@@ -45,10 +45,20 @@ var disqus_config = function () {
 
 **说明：**
 
-- **name** — Your site's name. We will display it in the Post As window.
-- **button** — Address of the image that acts as a button. Disqus 2012 users, see style guide below.
+- **name** — 你的网站名称。 We will display it in the Post As window.
+- **button** — 按钮图片的地址。 Disqus 2012 users, see style guide below.
 - **icon** — Address of the image that appears on the login modal's SSO tab. Favicons work well here. (Not required in Disqus 2012.)
-- **url** — Address of your login page. The page will be opened in a new window and it must close itself after authentication is done. That's how we know when it is done and reload the page.
+- **url** — 你的登录页地址。这个页面将打开新窗口，这个页面必须在认证后自己关闭。 That's how we know when it is done and reload the page.
 - **logout** — 你的登出页面。你的用户点登出按钮后被导向到页面。
 - **width** — 登录窗口宽度，默认800。
 - **height** — 登录窗口高度，默认400。
+以上的所有URL都必须是绝对链接，因为它们将在disqus的iframe中加载。
+
+**创建自己的登录按钮**
+1.下载[SSO login button style guide](http://content.disqus.com/design/disqus-sso-login-button-template.psd)
+2.用你自己的logo覆盖"Replace this logo"层
+3.修改按钮颜色("Button"层)为符合你的品牌
+4.保持形状的边框在预设范围内，以便与其他图标匹配
+
+如果你的登录窗口不能自动关闭，请使用javascript脚本自动关闭它。
+
