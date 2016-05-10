@@ -4,8 +4,42 @@ title: disqus研究
 permalink: /disqus/
 ---
 
+## 通用嵌入代码 ##
+首先，需要到disqus注册你的网站。 通过 [Quickstart Guide](https://help.disqus.com/customer/portal/articles/466182-quick-start-guide) 过去更多信息。
+然后，你需要知道注册时填写的 forum shortname。
+disqus嵌入javasrcript代码如下：
+```
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//EXAMPLE.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+```
+**EXAMPLE**是注册到disqus的shortname，告诉disqus这些评论属于哪个“租户”。
+**this.page.url**告诉disqus当前页面的url。
+**this.page.identifier**告诉disqus当前页面的id，这样如果URL改变id可以不变。这是一个可选变量，但建议用。如果不舍定这个变量，则会默认使用page.url当identifier。
+
+
+
 ## disqus单点登录 ##
-  使用外部系统的用户名口令登录disqus而不用注册disqus用户，前提是你已经有了一个用户库。如果你有多个网站，每个网站都要注册一个远程域。
+  使用外部系统的用户名口令登录disqus而不用注册disqus用户，前提是你已经有了一个用户库。*如果你有多个网站，每个网站都要注册一个远程域。*
   
   你的网站需要增加一个disqus插件，资格也需要手工向disqus申请（发邮件？）。
   
