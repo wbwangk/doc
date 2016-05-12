@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Reproducible Research
-permalink: /SaaScompose/
+title: SaaS组件与应用的集成
+permalink: /SaaSinApp/
 ---
 
 # 界面集成 #
