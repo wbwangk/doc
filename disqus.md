@@ -53,7 +53,7 @@ disqus嵌入javasrcript代码如下：
   ```
   this.page.remote_auth_s3 = '<message> <hmac> <timestamp>';
   ```
-  消息的构成：id、username、email以及两个可选参数avatar（用户头像url）、url（用户个人网站url）。id要保证在disqus内的唯一行。
+  消息的构成：id、username、email以及两个可选参数avatar（用户头像url）、url（用户个人网站url）。id要保证在disqus内的唯一性。
   签名算法：``` HMAC->SHA1(secret_key, message + ' ' + timestamp) ```
   
 ### 增加自己的登录登出链接 ###
