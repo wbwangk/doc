@@ -18,7 +18,7 @@ Every implementation of the Java platform is required to support the following s
 
 在stormpath中使用Mac这个类进行摘要认证，使用源码可以参照stormpath SDK类[SAuthc1RequestAuthenticator.java][1]
 
-通过分析类[JwtWrapper.java][2]可知，JWT由dot隔开的三部分构成：<jwt头>.<jwt负载(payload)>.<签名>
+通过分析类[JwtWrapper.java][2]可知，JWT由dot隔开的三部分构成：``` <jwt头>.<jwt负载(payload)>.<签名> ```
 通过分析类[HmacGenerator.java][3]可以看到jwt的生成方式，代码不多。
 
 
