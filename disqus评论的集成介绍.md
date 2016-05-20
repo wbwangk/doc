@@ -7,7 +7,7 @@ permalink: /disqus/
 {% for i in (1..5) %}
 i= {{ i }} 
 {% endfor %}
-
+``` ```  
 [本文的来源](https://help.disqus.com/customer/en/portal/topics/107054-developer/articles)
 
 ##注册disqus##
