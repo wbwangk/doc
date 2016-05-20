@@ -7,12 +7,13 @@ permalink: /disqus/
   {% for i in (1..5) %}
   i= {{ i }}  
   {% endfor %}
+  
 [本文的来源](https://help.disqus.com/customer/en/portal/topics/107054-developer/articles)
 
-## 注册disqus ##
-首先，需要你需要在disqus注册一个用户。你将使用这个用户登录disqus来管理你的网站。在disqus中注册你的网站时，需要为你的网站选择一个shortname来标识你的网站。disqus会用这个shortname自动注册二级域名。
+## 注册disqus ##  
+首先，需要你需要在disqus注册一个用户。你将使用这个用户登录disqus来管理你的网站。在disqus中注册你的网站时，需要为你的网站选择一个shortname来标识你的网站。disqus会用这个shortname自动注册二级域名。  
 
-## 通用嵌入代码 ##  
+##通用嵌入代码##
 
 首先，需要到disqus注册你的网站。 通过 [Quickstart Guide](https://help.disqus.com/customer/portal/articles/466182-quick-start-guide) 过去更多信息。
 然后，你需要知道注册时填写的 forum shortname。
