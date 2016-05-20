@@ -4,10 +4,6 @@ title: disqus研究
 permalink: /disqus/
 ---
 
-{% for i in (1..5) %}
-i= {{ i }} 
-{% endfor %}
-``` ```  
 [本文的来源](https://help.disqus.com/customer/en/portal/topics/107054-developer/articles)
 
 ##注册disqus##
@@ -107,4 +103,9 @@ var disqus_config = function () {
 4.保持形状的边框在预设范围内，以便与其他图标匹配
 
 如果你的登录窗口不能自动关闭，请使用javascript脚本自动关闭它。
+
+
+{% for i in (1..5) %}
+i= {{ i }} 
+{% endfor %}
 
