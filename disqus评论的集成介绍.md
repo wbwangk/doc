@@ -10,14 +10,14 @@ permalink: /disqus/
   
 [本文的来源](https://help.disqus.com/customer/en/portal/topics/107054-developer/articles)
 
-##注册disqus##  
+##注册disqus##
 首先，需要你需要在disqus注册一个用户。你将使用这个用户登录disqus来管理你的网站。在disqus中注册你的网站时，需要为你的网站选择一个shortname来标识你的网站。disqus会用这个shortname自动注册二级域名。  
 
 ##通用嵌入代码##
 
 首先，需要到disqus注册你的网站。 通过 [Quickstart Guide](https://help.disqus.com/customer/portal/articles/466182-quick-start-guide) 过去更多信息。
 然后，你需要知道注册时填写的 forum shortname。
-disqus嵌入javasrcript代码如下：
+disqus嵌入javasrcript代码如下：  
 ```
 <div id="disqus_thread"></div>
 <script>
@@ -41,7 +41,7 @@ disqus嵌入javasrcript代码如下：
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-```
+```  
 **EXAMPLE**是注册到disqus的shortname，告诉disqus这些评论属于哪个“租户”。
 **this.page.url**告诉disqus当前页面的url。
 **this.page.identifier**告诉disqus当前页面的id，这样如果URL改变id可以不变。这是一个可选变量，但建议用。如果不舍定这个变量，则会默认使用page.url当identifier。
