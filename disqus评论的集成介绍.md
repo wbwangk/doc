@@ -5,6 +5,7 @@ permalink: /disqus/
 ---
 
 ##注册disqus##  
+
 首先，需要你需要在disqus注册一个用户。你将使用这个用户登录disqus来管理你的网站。在disqus中注册你的网站时，需要为你的网站选择一个shortname来标识你的网站。disqus会用这个shortname自动注册二级域名。  
 
 ##通用嵌入代码##
