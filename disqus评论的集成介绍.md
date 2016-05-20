@@ -5,7 +5,7 @@ permalink: /disqus/
 ---
 
 {% for i in (1..5) %}
-i= {{ i }}  
+i= {{ i }} 
 {% endfor %}
 
 [本文的来源](https://help.disqus.com/customer/en/portal/topics/107054-developer/articles)
@@ -18,6 +18,7 @@ i= {{ i }}
 首先，需要到disqus注册你的网站。 通过 [Quickstart Guide](https://help.disqus.com/customer/portal/articles/466182-quick-start-guide) 过去更多信息。
 然后，你需要知道注册时填写的 forum shortname。
 disqus嵌入javasrcript代码如下：  
+
 ```
 <div id="disqus_thread"></div>
 <script>
@@ -42,6 +43,7 @@ disqus嵌入javasrcript代码如下：
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 ```  
+
 **EXAMPLE**是注册到disqus的shortname，告诉disqus这些评论属于哪个“租户”。
 **this.page.url**告诉disqus当前页面的url。
 **this.page.identifier**告诉disqus当前页面的id，这样如果URL改变id可以不变。这是一个可选变量，但建议用。如果不舍定这个变量，则会默认使用page.url当identifier。
