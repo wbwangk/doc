@@ -3,6 +3,8 @@ layout: page
 title: Hash Message Authentication Code(HMAC)
 permalink: /hmac/
 ---
+周6加班
+
 
 算法用到的java类是[javax.crypto.Mac][4]，下面是类的说明：    
 
