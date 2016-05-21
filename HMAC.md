@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hash Message Authentication Code(HMAC)
-permalink: /hmac/
+permalink: /hmac2/
 ---
 周6加班
 
