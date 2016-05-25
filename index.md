@@ -11,3 +11,15 @@ layout: page
 1. [亚马逊S3 API研究](/s3api/)
 2. [disqus集成研究](/disqus/)
 3. [SaaS组件与应用的集成](/SaaSinApp/)
+
+ABCD | EFGH | IGKL
+-----|------|----
+a    | b    | c
+d    | e    | f
+g    | h    | i
+
+{% for i in (1..5) %}
+
+{{ i }}
+
+{% endfor %}
