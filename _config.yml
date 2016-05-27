@@ -2,11 +2,11 @@
 title: wbwangk blog
 email:
 description: Community Site
-baseurl:
+
 url:
-twitter_username:
+
 github_username:  wbwangk
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+
