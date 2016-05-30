@@ -5,8 +5,6 @@ description: Community Site
 
 url:
 
-github_username:  wbwangk
-
 # Build settings
 markdown: kramdown
 
