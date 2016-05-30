@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Login
+title: 用户认证
 permalink: /iam/
 ---
 
