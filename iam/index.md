@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 用户认证
-permalink: /iam/
 ---
 
 以SaaS的方式提供用户认证服务。
