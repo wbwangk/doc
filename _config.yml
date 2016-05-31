@@ -4,4 +4,6 @@ email:
 description: imai云开发者中心
 
 url:
-gems: ["jemoji"]
+gems: 
+ - jemoji
+ - jekyll-gist
