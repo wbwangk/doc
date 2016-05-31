@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-
+:smile:
 本站提供组件SaaS和工具SaaS。应用可以通过js或超链接使用组件SaaS。工具SaaS可提高应用开发效率。使用服务前需要先注册[租户](/terms/tenant/)并取得API key。
 
 本站组件SaaS支持以下特性：
