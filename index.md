@@ -20,7 +20,6 @@ layout: page
 3. [店铺装修]
 4. [首页定制]
 
-{% gist wbwangk/52428fba9b31b83c702f69406ff4e6bb %}
 <div id="disqus_thread"></div>
 <script>
 /**
