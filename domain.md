@@ -4,7 +4,7 @@ title: 域名与路径
 permalink: /domain/
 ---
 ## 二级域名 ##
-imaicloud.com的二级主要供租户使用，如wbwang.imaicloud.com标识租户wbwang在本站托管的资源，主要是静态文件。部分二级域名是保留的，如dev.imaicloud.com是imai云的开发者中心。
+imaicloud.com的二级主要供租户使用，如`wbwang.imaicloud.com`标识租户`wbwang`在本站托管的资源，主要是静态文件。部分二级域名是保留的，如`dev.imaicloud.com`是imai云的开发者中心。
 
 ## 代理服务器上的目录规划 ##
 
