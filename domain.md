@@ -4,7 +4,7 @@ title: 域名与路径
 permalink: /domain/
 ---
 ## 二级域名 ##
-``imaicloud.com``的二级主要供租户使用，如`lucy.imaicloud.com`标识租户`lucy`在本站托管的资源，主要是静态文件。有些租户是网站官方的，如`dev`是imai云的开发者中心租户，开发者中心的网址即`dev.imaicloud.com`。
+```imaicloud.com```的二级主要供租户使用，如`lucy.imaicloud.com`标识租户`lucy`在本站托管的资源，主要是静态文件。有些租户是网站官方的，如`dev`是imai云的开发者中心租户，开发者中心的网址即`dev.imaicloud.com`。
 
 ## 代理服务器上的目录规划 ##
 这里的代理服务器指部署在浪潮云机房中的imaicloud.com的代理服务器，如NginX。每个二级域名（即每个租户）在代理服务上对应一个`vhost`，如`dev.imaicloud.com`或`wbwang.imaicloud.com`都是`vhost`。`vhost`下每个组件都有对应的目录存放各自的静态文件，称组件目录。如ocs是在线客服组件的组件目录，`dev.imaicloud.com/ocs/xxx.js`是在线客服组件的某文件url。同一个文件，在不同租户下可能有个性化版本，如`lucy.imaicloud.com/ocs/xxx.js`是租户`lucy`下的某js文件的个性化版本。
