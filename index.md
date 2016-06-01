@@ -21,7 +21,7 @@ layout: page
 4. [首页定制]
 
 ## 其他
-1. [租户域名](/cname/)
+1. [域名规划](/domain/)
 <div id="disqus_thread"></div>
 <script>
 /**
