@@ -20,6 +20,8 @@ layout: page
 3. [店铺装修]
 4. [首页定制]
 
+## 其他
+1. [租户域名](/cname/)
 <div id="disqus_thread"></div>
 <script>
 /**
