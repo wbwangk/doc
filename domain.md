@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 域名相关
+title: 域名规划
 permalink: /domain/
 ---
 
