@@ -21,7 +21,7 @@ layout: page
 4. [首页定制]
 
 ## 其他
-1. [域名规划](/domain/)
+1. [域名与路径](/domain/)
 <div id="disqus_thread"></div>
 <script>
 /**
