@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 域名相关
-permalink: /cname/
+permalink: /domain/
 ---
 
 imai开发者中心暂不支持imaicloud.com的二级域名定制。事先在域名供应商（aliyun.com）处注册一批二级域名供租户选择，如a001.imaicloud.com，a002.imaicloud.com等等。
