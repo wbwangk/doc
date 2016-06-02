@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 域名与路径
-permalink: /domain/
+permalink: /about/
 ---
 ## 二级域名 ##
 `imaicloud.com`的二级主要供租户使用，如`lucy.imaicloud.com`标识租户`lucy`在本站托管的资源，主要是静态文件。有些租户是网站官方的，如`dev`是imai云的开发者中心租户，开发者中心的网址即`dev.imaicloud.com`。
