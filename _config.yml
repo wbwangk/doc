@@ -1,12 +1,9 @@
 # Site settings
-title: wbwangk blog
+title: imai云开发者中心
 email:
-description: Community Site
+description: imai云开发者中心
 
 url:
-
-github_username:  wbwangk
-
-# Build settings
-markdown: kramdown
-
+gems: 
+ - jemoji
+ - jekyll-gist
