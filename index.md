@@ -36,9 +36,7 @@ this.page.identifier = "main"; // Replace PAGE_IDENTIFIER with your page's uniqu
 */
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
-
 s.src = '//imaip.disqus.com/embed.js';
-
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
