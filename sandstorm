@@ -1,0 +1,9 @@
+---
+layout: page
+title: sandstorm研究
+permalink: /sandstorm/
+---
+
+sandstorm平台负责用户认证,应用不用管。而且sandstorm要求应用不能实现用户认证。
+
+sandstorm会过滤所有的http请求。http请求会通过一个叫`sandstorm-http-bridge`的工具转给应用。
