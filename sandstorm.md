@@ -41,3 +41,6 @@ websocket请求无法设置http头，只能把API放在URL中，格式是：
 wss://api-qxJ58hKANkbmJLQdSDk4.oasis.sandstorm.io/.sandstorm-api-token/RfNqni4FEHXkWC5B8v6t/some/path
 ```
  "/.sandstorm-api-token/<token>" 部分会被sandstorm剥离，发往应用的是剩余部分。
+
+# AJAX跨域请求
+Sandstorm applies a CORS header of ```Access-Control-Allow-Origin: * ``to allow Javascript on any domain to interact with the app's API. This is safe because the API token serves as the access control.
