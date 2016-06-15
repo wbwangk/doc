@@ -19,3 +19,5 @@ sandstorm会过滤所有的http请求。http请求会通过一个叫`sandstorm-h
  - X-Sandstorm-Preferred-Handle：参数或偏好？
  - X-Sandstorm-User-Picture：用户头像url。也可以用https://github.com/stewartlord/identicon.js来为用户生成一个(X-Sandstorm-User-Id当输入)
  - X-Sandstorm-User-Pronouns：they/he/him/her/she/it等，代称
+
+也可以不使用`sandstorm-http-bridge`，然后使用服务访问认证信息。
