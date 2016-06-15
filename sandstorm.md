@@ -31,7 +31,7 @@ curl -H "Authorization: Bearer 49Np9sqkYV4g_FpOQk1p0j1yJlvoHrZm9SVhQt7H2-9" http
 ```
 上面的格式是OAuth 2.0-style Bearer header
 
-# websocket请求
+## websocket请求
 websocket请求无法设置http头，只能把API放在URL中，格式是：
 ```
 /.sandstorm-api-token/<token>
@@ -42,5 +42,5 @@ wss://api-qxJ58hKANkbmJLQdSDk4.oasis.sandstorm.io/.sandstorm-api-token/RfNqni4FE
 ```
  "/.sandstorm-api-token/<token>" 部分会被sandstorm剥离，发往应用的是剩余部分。
 
-# AJAX跨域请求
+## AJAX跨域请求
 Sandstorm applies a CORS header of ```Access-Control-Allow-Origin: * ``to allow Javascript on any domain to interact with the app's API. This is safe because the API token serves as the access control.
