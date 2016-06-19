@@ -26,3 +26,9 @@ curl --request GET \
 --header 'content-type: application/json' \
 --url "https://api.stormpath.com/v1/tenants/current"
 ```
+## etcd中数据结构
+
+```/new-htpasswd/```   存放新生成的[htpasswd](https://en.wikipedia.org/wiki/.htpasswd)，key是htpasswd中的user id。
+```/nginx/```  存放了与nginx配置文件有关的元数据
+```/nginx/vhosts/``` 存放了所有的虚拟主机
+```
