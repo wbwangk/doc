@@ -28,11 +28,17 @@ curl --request GET \
 ```
 ## etcd中数据结构
 
-  ```/apikey-list/```   存放备选的api key(使用[htpasswd](https://en.wikipedia.org/wiki/.htpasswd))，key是htpasswd中的user id。
-  ```/subdomain-list/```   存放备选的二级域名
-  ```/nginx/```  存放了与nginx配置文件有关的元数据
-  ```/nginx/vhosts/``` 存放了所有的虚拟主机
-  ```/nginx/vhosts/$subdomain/``` 虚拟主机id当目录名。使用二级域名当vhost id，即$subdomain.imaicloud.com，如a001.imaicloud.com
-  ```/nginx/vhosts/$subdomain/github-id``` 租户的github账号
-  ```/nginx/vhosts/$subdomain/apikeys/``` 存放有效的api key，key是htpasswd中的user id。
+```/apikey-list/```   存放备选的api key(使用[htpasswd](https://en.wikipedia.org/wiki/.htpasswd))，key是htpasswd中的user id。
+
+```/subdomain-list/```   存放备选的二级域名
+
+```/nginx/```  存放了与nginx配置文件有关的元数据
+
+```/nginx/vhosts/``` 存放了所有的虚拟主机
+
+```/nginx/vhosts/$subdomain/``` 虚拟主机id当目录名。使用二级域名当vhost id，即$subdomain.imaicloud.com，如a001.imaicloud.com
+
+```/nginx/vhosts/$subdomain/github-id``` 租户的github账号
+
+```/nginx/vhosts/$subdomain/apikeys/``` 存放有效的api key，key是htpasswd中的user id。
 
