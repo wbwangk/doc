@@ -14,7 +14,7 @@
 1. 用户通过ADM进入API key管理界面，显示有效API key清单
 2. 点击创建按钮，系统生成一对随机数（分别是api key id和api key secret）作为api key保存到etcd（初期用脚本触发htpasswd工具生成？）
 3. 系统生成一个api key文件，并自动下载。提示用户保存好api key文件
-4. confd监听etcd中api key的数据变化，并自动生成htpasswd文件。每个租户一个密码文件。
+4. confd监听etcd中api key的数据变化，并自动生成htpasswd文件。
 5. nginx重新加载配置（reload）
 6. 用户（开发者）使用curl（或写程序）调用平台API，curl写法见备注
 7. nginx的API服务相关location中已经配置http基础认证，当nginx检测到api服务请求时会检查http头中用户名密码与htpasswd文件中是否一致
@@ -22,7 +22,7 @@
 备注：基于NginX的API认证(Basic Authentication)。通过API Key来认证API服务。API Key放置在Http Header中。例如：
 ```
 curl --request GET \
---user $SP_API_KEY_ID:$SP_API_KEY_SECRET \
+--user $API_KEY_ID:$API_KEY_SECRET \
 --header 'content-type: application/json' \
 --url "https://api.stormpath.com/v1/tenants/current"
 ```
