@@ -3,7 +3,7 @@ layout: page
 ---
 :smile:
 
-## 本站提供的组件云服务 ##
+## 组件云服务 ##
 1. [用户认证（缺）](/iam/)
 2. [在线客服](http://ocs.imaicloud.com)
 
