@@ -12,4 +12,4 @@ layout: page
 2. [在线excel](http://ethercalc.imaicloud.com)
 
 ## 文档中心 ##
-1. [平台概述](/doc/plat/)
+1. [平台概述](/doc/plat.md)
