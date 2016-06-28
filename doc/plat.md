@@ -29,6 +29,7 @@ curl --request GET \
 --header 'content-type: application/json' \
 --url "https://api.stormpath.com/v1/tenants/current"
 ```
+
 ## etcd中数据结构
 
 - ```/apikey-list/```   存放备选的api key(使用[htpasswd](https://en.wikipedia.org/wiki/.htpasswd))，key是htpasswd中的user id。
