@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-:smile:
+[:smile:](http://www.emoji-cheat-sheet.com/)
 
 ## 组件云服务 ##
 1. [用户认证（缺）](/iam/)
