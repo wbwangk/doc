@@ -13,6 +13,7 @@ layout: page
 ## 工具云服务 ##
 1. [etcd-viewer](http://etcd.imaicloud.com)
 2. [在线excel](http://ethercalc.imaicloud.com)
+3. [用户行为分析](http://uba.imaicloud.com)
 
 ## 文档中心 ##
 1. [平台概述](/doc/plat)
