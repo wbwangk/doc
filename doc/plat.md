@@ -35,9 +35,11 @@ curl --request GET \
 
 - ```/apikey-list/```   存放备选的api key(使用[htpasswd](https://en.wikipedia.org/wiki/.htpasswd))，key是htpasswd中的user id。
 - ```/subdomain-list/```   存放备选的二级域名
+- ```/front-list/```  存放备选的组件服务
 - ```/nginx/```  存放了与nginx配置文件有关的元数据
 - ```/nginx/vhosts/``` 存放了所有的虚拟主机
-- ```/nginx/vhosts/$subdomain/``` 使用二级域名当vhost id，即$subdomain.imaicloud.com，如a001.imaicloud.com
-- ```/nginx/vhosts/$subdomain/github-id``` 租户的github账号，默认值是imaidev
+- ```/nginx/vhosts/$subdomain/``` 使用二级域名当目录名，即$subdomain.imaicloud.com，如a001.imaicloud.com
+- ```/nginx/vhosts/$subdomain/fronts/``` 存放租户启用的组件服务清单
+- ```/nginx/vhosts/$subdomain/fronts/$组件id```key是启用的组件服务id，值是反向代理到的github pages地址，如gh-a001.github.io/ocs
 - ```/nginx/vhosts/$subdomain/apikeys/``` 存放有效的api key，key是htpasswd中的user id。
 
