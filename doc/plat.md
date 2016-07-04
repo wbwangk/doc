@@ -8,10 +8,11 @@ title: 平台概述
 1. 用户进入平台首页，点击注册按钮 
 2. 用户输入邮箱、用户名、密码等，IAM创建用户
 3. 租户登陆，回到平台首页
-4. 首页上集成了管理控制台ADM的小窗口，小窗口显示用户信息：二级域名:（无）、github账号:（无）。小窗口上有进入ADM的按钮
-5. 用户点击按钮进入管理控制台，控制台上仍显示“二级域名:（无）、github账号:（无）”，但两个“（无）”都成了超链接，点击超链接可以触发出输入框供用户输入。
-6. 用户输入二级域名（当前实现是从etcd的```subdomain-list```目录中选），如果域名已经被占用就提示用户。用ajax把域名信息写入etcd（删除subdomain-list中选定的记录，并在etcd中创建```/nginx/vhosts/$subdomain/```目录。然后在目录下创建一个"github-id"的key，值初始化为"imaidev"），输入框消失。github账号同理，用户可以选择不输入github账号。
-7.confd监听着etcd的数据变化，自动生成nginx的配置文件。如果没有租户定义自己的github账号，则github-id的值是imaidev,所以静态内容反向代理到imaidev.github.io。如果租户定义了自己的github账号，则静态内容反向代理到"$github-id.github.io"。
+4. 首页上集成了管理控制台ADM的小窗口，小窗口显示用户信息：```二级域名:（无）、启用服务:0个```。小窗口上有进入ADM的按钮
+5. 用户点击按钮进入管理控制台，控制台上仍显示```二级域名:（无）、启用服务:0个```，但两个都成了超链接。紧挨着下方显示```已申请的API Key: 0个```。
+6. 用户输入二级域名（当前实现是从etcd的```subdomain-list```目录中选），如果域名已经被占用就提示用户。用ajax把域名信息写入etcd（删除```subdomain-list```中选定的记录，并在etcd中创建```/nginx/vhosts/$subdomain/```目录。
+7. 用户点击“已启用的组件服务”进入组件服务管理界面。（全部组件列表存放在etcd的```front-list```目录下。）用户点击“新增”按钮，从尚未启用的组件中选择一个。（组件服务启用后在```/nginx/vhosts/$subdomain/fronts```目录下会增加记录。）用户可以将组件的前端反向代理到自己的github.io个性地址（如```gh-a001.github.io/ocs```）。
+8. confd监听着etcd的数据变化，自动生成nginx的配置文件。nginx配置文件的内容有server_name,值是etcd目录```$subdomain```。nginx配置中还会生成多个location，启用了几个服务就生成几个location。location的proxy_pass值就是```fronts```目录下各个key的value。
 
 ## API Key申请和使用的实现过程
 1. 用户通过ADM进入API key管理界面，显示有效API key清单
