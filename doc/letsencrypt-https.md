@@ -1,5 +1,5 @@
 ---
-layout: pages
+layout: page
 title: 免费https证书(Let's Encrypt)
 ---
 
