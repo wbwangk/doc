@@ -17,4 +17,4 @@ layout: page
 
 ## 文档中心 ##
 1. [平台概述](/doc/plat)
-2. 
+2. [免费https证书](/doc/letsencrypt-https)
