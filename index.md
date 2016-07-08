@@ -9,6 +9,7 @@ layout: page
 
 ## 基础云服务 ##
 1. [CouchDB](http://couch.imaicloud.com/_utils)
+2. [docker镜像库](http://registry.imaicloud.com)
 
 ## 工具云服务 ##
 1. [etcd-viewer](http://etcd.imaicloud.com)
