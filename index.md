@@ -11,7 +11,7 @@ layout: page
 1. [docker ui](https://dockerui.imaicloud.com)
 
 ## 基础云服务 ##
-1. [CouchDB](http://couch.imaicloud.com/_utils)
+1. [CouchDB](http://couchdb.imaicloud.com/_utils)
 
 ## 工具云服务 ##
 1. [etcd-viewer](http://etcd.imaicloud.com)
