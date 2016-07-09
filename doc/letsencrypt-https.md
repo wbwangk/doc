@@ -7,7 +7,9 @@ letsencrypt.org可以发放免费的https证书。
 
 ## 原理
 
-需要在webserver的机器上安装一个代理，推荐[cetbot](https://certbot.eff.org/)。cetbot执行后，会在webserver的webroot目录下创建隐藏的目录和文件。如nginx如果安装在/opt目录下，root指定为html，则cetbot会在```/opt/nginx/html```目录下创建```/.well-known/acme-challenge```的网页。let's encrypt的官网会调用这个网页 ，目的是查看certbot所在的webserver是否对于要发放证书的域名有控制权。
+需要在webserver的机器上安装一个代理，推荐[cetbot](https://certbot.eff.org/)。cetbot执行后，会弹出一个导航窗口：
+1. 
+会在webserver的webroot目录下创建隐藏的目录和文件。如nginx如果安装在/opt目录下，root指定为html，则cetbot会在```/opt/nginx/html```目录下创建```/.well-known/acme-challenge```的网页。let's encrypt的官网会调用这个网页 ，目的是查看certbot所在的webserver是否对于要发放证书的域名有控制权。
 
 ertbot还会在```/etc/letsencrypt/live/```目录下创建目录存放数字证书。如：
 
@@ -43,3 +45,7 @@ $ sudo certbot certonly
 
 会弹出一个简陋的导航窗口。选择```webroot```，之后输入nginx的web root目录（如``/opt/nginx/html```）。屏幕会提示英文的“恭喜”，以及产生的证书。
 修改nginx配置文件，并重新装载。
+
+## 附录 ##
+certbot中输入的域名清单：
+imaicloud.com,www.imaicloud.com,dockerui.imaicloud.com,dev.imaicloud.com,ethercalc.imaicloud.com,etcd.imaicloud.com,couchdb.imaicloud.com,uba.imaicloud.com,registry.imaicloud.com
