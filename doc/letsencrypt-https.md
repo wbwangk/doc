@@ -52,5 +52,6 @@ $ sudo certbot certonly
 修改nginx配置文件，并重新装载。
 
 ## 附录 ##
-certbot中输入的域名清单：
-imaicloud.com,www.imaicloud.com,dockerui.imaicloud.com,dev.imaicloud.com,ethercalc.imaicloud.com,etcd.imaicloud.com,couchdb.imaicloud.com,uba.imaicloud.com,registry.imaicloud.com
+为多个子域名一起申请证书:
+certbot certonly --webroot -w /opt/nginx/html-imaicloud/ -d imaicloud.com -d www.imaicloud.com -d dockerui.imaicloud.com -d dev.imaicloud.com -d ethercalc.imaicloud.com -d etcd.imaicloud.com -d couchdb.imaicloud.com -d uba.imaicloud.com -d registry.imaicloud.com
+
