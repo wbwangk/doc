@@ -9,6 +9,7 @@ layout: page
 
 ## 管理控制台 ##
 1. [docker ui](https://dockerui.imaicloud.com)
+2. [docker镜像库](https://registry.imaicloud.com)
 
 ## 基础云服务 ##
 1. [CouchDB](http://couchdb.imaicloud.com/_utils)
