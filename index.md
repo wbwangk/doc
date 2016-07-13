@@ -8,7 +8,7 @@ layout: page
 2. [在线客服](http://ocs.imaicloud.com)
 
 ## 管理控制台 ##:
-1. [docker容器](https://dockerui.imaicloud.com) [docker容器2](http://dockerui2.imaiclouid.com)
+1. [容器管理](https://dockerui.imaicloud.com)     [容器管理2](http://dockerui2.imaiclouid.com)
 2. [docker镜像库](https://registry.imaicloud.com)
 
 ## 基础云服务 ##
