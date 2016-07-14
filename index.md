@@ -7,7 +7,7 @@ layout: page
 1. [用户认证（缺）](/iam/)
 2. [在线客服](http://ocs.imaicloud.com)
 
-## 管理控制台 ##:
+## 管理控制台 ##
 1. [容器管理](https://dockerui.imaicloud.com)       [容器管理2](https://dockerui2.imaiclouid.com)
 2. [docker镜像库](https://registry.imaicloud.com)
 
