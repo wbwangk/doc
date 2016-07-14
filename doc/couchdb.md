@@ -3,7 +3,7 @@ layout: page
 title: couchdb的安全模块
 ---
 
-## 基础认证
+## 基础认证（--user可以简写为-u）
 1. ```curl --user anna:secret  https://couchdb.imaicloud.com/_config```
 2. ```curl https://anna:secret@couchdb.imaicloud.com/_config```
 
@@ -12,7 +12,7 @@ title: couchdb的安全模块
 创建一个叫somedatabase的数据库：```curl -X PUT --user anna:secret https://couchdb.imaicloud.com/somedatabase```
 
 ## cookie认证
-登陆：
+登陆：(-v参数会显示http调用过程的详细信息)
 ```
  curl -vX POST http://10.0.7.105:5984/_session \
        -H 'Content-Type:application/x-www-form-urlencoded' \
@@ -37,7 +37,13 @@ curl -X PUT http://10.0.7.105:5984/_users/org.couchdb.user:jan \
 ```
 curl -vX POST http://10.0.7.105:5984/_session -d 'name=jan&password=apple'
 ```
-取用户信息：
+响应(Set-Cookie就是couchdb创建的cookie)：
+```
+< HTTP/1.1 200 OK
+< Set-Cookie: AuthSession=amFuOjU3ODY0NzU1Otyly0ka4T1Y5FGB0Q8yfZGfmvbq; Version=1; Path=/; HttpOnly
+
+```
+取用户信息（--cookie参数模拟了请求中cookie的值）：
 ```
 curl -vX GET http://10.0.7.105:5984/_users/org.couchdb.user:jan \
       --cookie AuthSession=amFuOjU3ODY0NzU1Otyly0ka4T1Y5FGB0Q8yfZGfmvbq
