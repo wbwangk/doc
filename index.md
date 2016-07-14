@@ -22,7 +22,7 @@ layout: page
 ## 文档中心 ##
 1. [平台概述](/doc/plat)
 2. [免费https证书](/doc/letsencrypt-https)
-3. [css的例子](https://dockerui2.imaiclouid.com)
+3. [css的例子(容器管理2)](http://dockerui2.imaiclouid.com)
 
 
 
