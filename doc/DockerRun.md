@@ -24,6 +24,9 @@ docker run -d -p 5000:5000 --restart=always -v /var/lib/registry:/var/lib/regist
 ```
 docker run -d -p 8080:8080 registry.aliyuncs.com/imaidev/etcd-viewer
 ```
-
+## 启动tobegit3hub/seagull（容器管理，界面主题多）
+```
+docker run -d -p 10086:10086 -v /var/run/docker.sock:/var/run/docker.sock registry.imaicloud.com/tobegit3hub/seagull
+```
 
 
