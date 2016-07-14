@@ -39,7 +39,8 @@ curl -vX POST http://10.0.7.105:5984/_session -d 'name=jan&password=apple'
 ```
 取用户信息：
 ```
-curl -vX GET http://10.0.7.105:5984/_users/org.couchdb.user:jan  --cookie AuthSession=amFuOjU3ODY0NzU1Otyly0ka4T1Y5FGB0Q8yfZGfmvbq
+curl -vX GET http://10.0.7.105:5984/_users/org.couchdb.user:jan \
+      --cookie AuthSession=amFuOjU3ODY0NzU1Otyly0ka4T1Y5FGB0Q8yfZGfmvbq
 ```
 响应：
 ```{"_id":"org.couchdb.user:jan","_rev":"1-73f16884aa08df40b1a1b1710d1dcad2","password_scheme":"pbkdf2","iterations":10,"name":"jan","roles":[],"type":"user","derived_key":"4721471dfe82ee266d493acf26d5f8927d916435","salt":"2011ade37425b921ef87aec9f0c1daa5"}
