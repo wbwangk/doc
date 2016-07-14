@@ -12,7 +12,7 @@ layout: page
 2. [docker镜像库](https://registry.imaicloud.com)
 
 ## 基础云服务 ##
-1. [CouchDB](http://couchdb.imaicloud.com/_utils)
+1. [文档数据库CouchDB][1]
 
 ## 工具云服务 ##
 1. [etcd-viewer](http://etcd.imaicloud.com)
@@ -24,5 +24,5 @@ layout: page
 2. [免费https证书](/doc/letsencrypt-https)
 
 
-
+[1]: http://couchdb.imaicloud.com/_utils （端口:5984 卷: /var/couchdb /var/couchdb/conf /var/couchdb/log）
 
