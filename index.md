@@ -15,7 +15,7 @@ layout: page
 1. [文档数据库(https://couchdb.imaicloud.com)](https://couchdb.imaicloud.com/_utils)
 
 ## 工具云服务 ##
-1. [etcd-viewer (https://etcd.imaicloud.com)](https://etcd.imaicloud.com)
+1. [etcd-viewer (https://etcd.imaicloud.com)](https://etcd.imaicloud.com/etcd?13)
 2. [在线excel (https://ethercalc.imaicloud.com)](https://ethercalc.imaicloud.com)
 3. [用户行为分析 (https://uba.imaicloud.com)](https://uba.imaicloud.com)
 
