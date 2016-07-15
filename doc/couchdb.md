@@ -92,3 +92,38 @@ curl -X PUT http://10.0.7.105:5984/mydatabase/_security \
      -H "Content-Type: application/json" \
      -d '{"admins": { "names": [jan], "roles": ["mydatabase_admin"] }, "members": { "names": [], "roles": [] } }'
 ```
+## design文档的例子
+```
+{
+"language": "javascript",
+
+"validate_doc_update": "function(newDoc, oldDoc, userCtx) {
+    function require(field, message) {
+        message = message || "Document must have a " + field;
+        if (!newDoc[field]) throw({forbidden : message});
+    };
+    function unchanged(field) {
+        if (oldDoc && toJSON(oldDoc[field] != toJSON(newDoc[field])) {
+        }
+    };
+
+    if (newDoc.type == "fortune") {
+        require("body");
+        require("sequence_id");
+        require("created_at");
+        unchanged("sequence_id");
+        unchanged("created_at");
+    }
+};",
+
+"views": { 
+    "fortune_count": {
+        "map": "function(doc) { if(doc.sequence_id && doc.body) { emit(doc.sequence_id, doc.body); }",
+        "reduce": "_count"
+        }
+},
+
+"shows": {
+}
+}
+```
