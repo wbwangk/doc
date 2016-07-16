@@ -55,3 +55,8 @@ $ sudo certbot certonly
 为多个子域名一起申请证书:
 certbot certonly --webroot -w /opt/nginx/html-imaicloud/ -d imaicloud.com -d www.imaicloud.com -d dockerui.imaicloud.com -d dev.imaicloud.com -d ethercalc.imaicloud.com -d etcd.imaicloud.com -d couchdb.imaicloud.com -d uba.imaicloud.com -d registry.imaicloud.com
 
+## OpenSSL
+Mozialla的trust store：https://hg.mozilla.org/mozilla-central/raw-file/tip/security/nss/lib/ckfw/builtins/certdata.txt（专属格式）
+CURL有一个PEM格式的镜像库：http://curl.haxx.se/docs/caextract.html
+
+Most users turn to OpenSSL because they wish to configure and run a web server that supports SSL. That process consists of three steps: (1) generate a strong private key, (2) create a Certificate Signing Request (CSR) and send it to a CA, and (3) install the CA-provided certificate in your web server.
