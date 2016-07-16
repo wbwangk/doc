@@ -60,3 +60,5 @@ Mozialla的trust store：https://hg.mozilla.org/mozilla-central/raw-file/tip/sec
 CURL有一个PEM格式的镜像库：http://curl.haxx.se/docs/caextract.html
 
 Most users turn to OpenSSL because they wish to configure and run a web server that supports SSL. That process consists of three steps: (1) generate a strong private key, (2) create a Certificate Signing Request (CSR) and send it to a CA, and (3) install the CA-provided certificate in your web server.
+
+Creating a new CA involves several steps: configuration, creation of a directory structure and initialization of the key files, and finally generation of the root key and certificate. This section describes the process as well as the common CA operations.
