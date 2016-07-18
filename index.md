@@ -12,7 +12,7 @@ layout: page
 2. [docker镜像库 (https://registry.imaicloud.com)](https://registry.imaicloud.com)
 
 ## 基础云服务 ##
-1. [文档数据库(https://couchdb.imaicloud.com)](https://dev.imaicloud.com/couchdb/_utils)
+1. [文档数据库(https://couchdb.imaicloud.com)](https://dev.imaicloud.com/couchdb/_utils/)
 
 ## 工具云服务 ##
 1. [etcd-viewer (https://etcd.imaicloud.com)](https://etcd.imaicloud.com/etcd?13)
