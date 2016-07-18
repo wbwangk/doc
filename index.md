@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-[:smile:](http://www.emoji-cheat-sheet.com/)
+[:smile:](http://www.emoji-cheat-sheet.com/)本平台在github上的[源码库](https://github.com/imaidev/imaidev.github.io)
 
 ## 组件云服务 ##
 1. [用户认证 (https://iam.imaicloud.com)停止](/iam/)
@@ -12,7 +12,7 @@ layout: page
 2. [docker镜像库 (https://registry.imaicloud.com)](https://registry.imaicloud.com)
 
 ## 基础云服务 ##
-1. [文档数据库(https://couchdb.imaicloud.com)](https://couchdb.imaicloud.com/_utils)
+1. [文档数据库(https://couchdb.imaicloud.com)](https://dev.imaicloud.com/couchdb/_utils)
 
 ## 工具云服务 ##
 1. [etcd-viewer (https://etcd.imaicloud.com)](https://etcd.imaicloud.com/etcd?13)
