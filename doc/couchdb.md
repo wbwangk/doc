@@ -18,6 +18,12 @@ title: couchdb的安全模块
        -H 'Content-Type:application/x-www-form-urlencoded' \
        -d 'name=anna&password=secret'
 ```
+或
+```
+ curl -vX POST https://dev.imaicloud.com/signin \
+       -H 'Content-Type:application/x-www-form-urlencoded' \
+       -d 'name=anna&password=secret'
+```
 
 增加一个数据库，测试cookie认证
 ```
