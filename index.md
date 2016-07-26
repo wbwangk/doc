@@ -24,5 +24,14 @@ layout: page
 2. [免费https证书](/doc/letsencrypt-https)
 3. [css的例子(容器管理2)](http://dockerui2.imaicloud.com/)
 
-
+<div class="adm-block">
+    <div class="portlet">
+      <div class="portlet-title">
+        <div class="pull-left" style="width:50%;">用户:admin</div>
+        <div class="pull-right" style="width:50%;text-align:right;">
+          <a href="https://dev.imaicloud.com/adm-web?user_id=admin" target="_blank" style="cursor:pointer;">ADM控制台>></a>
+        </div>
+      </div>
+    </div>
+</div>
 
