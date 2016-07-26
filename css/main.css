@@ -409,3 +409,33 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+/*yanghy add 20160714 start*/
+.adm-block{
+  position: fixed;
+  top: 10%;
+  float: right;
+  right: 100px;
+  height:100px;
+  width:300px;
+}
+.portlet{
+  border: 1px solid #e8e8e8;
+}
+.portlet-title{
+  border:none;
+  border-bottom:1px solid #e8e8e8;
+  height: 40px;
+  width: 100%;
+}
+.portlet-body{
+  border:none;
+  width: 100%;
+}
+.pull-left{
+  float:left;
+}
+.pull-right{
+  float:right;
+}
+/*yanghy add 20160714 end*/
