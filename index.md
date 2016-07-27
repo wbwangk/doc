@@ -3,8 +3,8 @@ layout: page
 ---
 <div class="jumbotron">
   <div class="container">
-    <h1>Hello, world!</h1>
-    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+    <h1>imai云开发者中心</h1>
+    <p>imai云开发者中心借助github为组件开发者提供了一套组件开发的最佳实践，目的是建设一套围绕组件整个生命周期的生态系统，让组件更开放、更灵活，并且使组件能够持续的进化升级</p>
     <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
   </div>
 </div>
