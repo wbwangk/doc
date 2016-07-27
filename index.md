@@ -1,6 +1,4 @@
----
-layout: page
----
+
 <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
