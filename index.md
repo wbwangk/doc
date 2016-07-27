@@ -1,6 +1,4 @@
-
-<link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-
+<!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
   <div class="container">
     <h1>Hello, world!</h1>
@@ -10,7 +8,7 @@
 </div>
 
 <div class="container">
-
+  <!-- Example row of columns -->
   <div class="row">
     <div class="col-md-4">
       <h2>Heading</h2>
@@ -28,14 +26,4 @@
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div>
   </div>
-
-  <hr>
-
-  <footer>
-    <p>&copy; Company 2014</p>
-  </footer>
-</div>
-
-
-<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</div> <!-- /container -->
