@@ -5,7 +5,7 @@ layout: page
   <div class="container">
     <h1>imai云开发者中心</h1>
     <p>imai云开发者中心借助github为组件开发者提供了一套组件开发的最佳实践，目的是建设一套围绕组件整个生命周期的生态系统，让组件更开放、更灵活，促进组件的持续升级与进化。</p>
-    <p><a class="btn btn-primary btn-lg" href="https://github.com/imaidev/imaidev.github.io" role="button">了解更多 &raquo;</a></p>
+    <p><a class="btn btn-primary btn-lg" href="https://github.com/imaidev/imaidev.github.io" role="button">github &raquo;</a></p>
   </div>
 </div>
 <div class="container">
@@ -25,8 +25,8 @@ layout: page
     <div class="col-md-4">
       <h2>BaaS</h2>
       <p>BaaS(BackEnd as a Service)后端即服务是一种新的移动应用部署架构。不部署后台应用或数据库，移动应用通过http调用云中心的BaaS服务实现持久化或业务逻辑，也称为ServerLess架构</p>
-      <p><a class="btn btn-default" href="https://etcd.imaicloud.com/etcd?13" role="button">etcd &raquo;</a></p>
-      <p><a class="btn btn-default" href="https://dev.imaicloud.com/couchdb/_utils/" role="button">CouchDB &raquo;</a></p>
+      <p><a class="btn btn-default" href="https://etcd.imaicloud.com/etcd?13" role="button">etcd &raquo;</a>
+      <a class="btn btn-default" href="https://dev.imaicloud.com/couchdb/_utils/" role="button">CouchDB &raquo;</a></p>
     </div>
   </div>
   <div class="row">
