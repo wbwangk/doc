@@ -1,5 +1,4 @@
 
-<!-- Bootstrap core CSS -->
 <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -23,11 +22,11 @@
         </div>
         <button type="submit" class="btn btn-success">Sign in</button>
       </form>
-    </div><!--/.navbar-collapse -->
+    </div>
   </div>
 </nav>
 
-<!-- Main jumbotron for a primary marketing message or call to action -->
+
 <div class="jumbotron">
   <div class="container">
     <h1>Hello, world!</h1>
@@ -37,7 +36,7 @@
 </div>
 
 <div class="container">
-  <!-- Example row of columns -->
+
   <div class="row">
     <div class="col-md-4">
       <h2>Heading</h2>
@@ -61,11 +60,8 @@
   <footer>
     <p>&copy; Company 2014</p>
   </footer>
-</div> <!-- /container -->
+</div>
 
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
 <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
