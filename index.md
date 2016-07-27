@@ -1,4 +1,3 @@
-<!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
   <div class="container">
     <h1>Hello, world!</h1>
@@ -26,4 +25,4 @@
       <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div>
   </div>
-</div> <!-- /container -->
+</div> 
