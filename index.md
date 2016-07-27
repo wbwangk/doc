@@ -13,34 +13,39 @@ layout: page
     <div class="col-md-4">
       <h2>容器管理</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-default" href="https://dockerui.imaicloud.com" role="button">View details &raquo;</a></p>
+      <p><a class="btn btn-default" href="https://dockerui.imaicloud.com" role="button">进入 &raquo;</a></p>
+      <p><a class="btn btn-default" href="https://registry.imaicloud.com" role="button">镜像库 &raquo;</a></p>
     </div>
     <div class="col-md-4">
-      <h2>镜像库</h2>
+      <h2>组件服务</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-default" href="https://registry.imaicloud.com" role="button">View details &raquo;</a></p>
+      <p><a class="btn btn-default" href="https://iam.imaicloud.com" role="button"用户认证 &raquo;</a></p>
+      <p><a class="btn btn-default" href="http://ocs.imaicloud.com" role="button"在线客服 &raquo;</a></p>
    </div>
     <div class="col-md-4">
-      <h2>etcd-viewer</h2>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p><a class="btn btn-default" href="https://etcd.imaicloud.com/etcd?13" role="button">View details &raquo;</a></p>
+      <h2>BaaS</h2>
+      <p>BaaS(BackEnd as a Service)后端即服务是一种新的移动应用部署架构。不部署后台应用或数据库，移动应用通过http调用云中心的BaaS服务实现持久化或业务逻辑，也称为ServerLess架构</p>
+      <p><a class="btn btn-default" href="https://etcd.imaicloud.com/etcd?13" role="button">etcd &raquo;</a></p>
+      <p><a class="btn btn-default" href="https://dev.imaicloud.com/couchdb/_utils/" role="button">CouchDB &raquo;</a></p>
     </div>
   </div>
-</div> 
+  <div class="row">
+    <div class="col-md-4">
+      <h2>开发与运营</h2>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      <p><a class="btn btn-default" href="https://uba.imaicloud.com" role="button">用户行为分析 &raquo;</a></p>
+      <p><a class="btn btn-default" href="#" role="button">代码机 &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+      <h2>其他</h2>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      <p><a class="btn btn-default" href="https://ethercalc.imaicloud.com" role="button">ethercalc &raquo;</a></p>
+      <p><a class="btn btn-default" href="http://dockerui2.imaicloud.com/" role="button">dockerui2 &raquo;</a></p>
+   </div>
+  </div></div> 
 [:smile:](http://www.emoji-cheat-sheet.com/)
 
-## 组件云服务 ##
-1. [用户认证 (https://iam.imaicloud.com)停止](/iam/)
-2. [在线客服 (http://ocs.imaicloud.com)停止](http://ocs.imaicloud.com)
-
-## 基础云服务 ##
-1. [文档数据库(https://couchdb.imaicloud.com)](https://dev.imaicloud.com/couchdb/_utils/)
-
-## 工具云服务 ##
-2. [在线excel (https://ethercalc.imaicloud.com)](https://ethercalc.imaicloud.com)
-3. [用户行为分析 (https://uba.imaicloud.com)](https://uba.imaicloud.com)
 
 ## 文档中心 ##
 1. [平台概述](/doc/plat)
-2. [免费https证书](/doc/letsencrypt-https)
-3. [css的例子(容器管理2)](http://dockerui2.imaicloud.com/)
+
