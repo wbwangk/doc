@@ -19,8 +19,8 @@ layout: page
     <div class="col-md-4">
       <h2>组件服务</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-default" href="https://iam.imaicloud.com" role="button"用户认证 &raquo;</a></p>
-      <p><a class="btn btn-default" href="http://ocs.imaicloud.com" role="button"在线客服 &raquo;</a></p>
+      <p><a class="btn btn-default" href="https://iam.imaicloud.com" role="button">用户认证 &raquo;</a></p>
+      <p><a class="btn btn-default" href="http://ocs.imaicloud.com" role="button">在线客服 &raquo;</a></p>
    </div>
     <div class="col-md-4">
       <h2>BaaS</h2>
@@ -44,8 +44,3 @@ layout: page
    </div>
   </div></div> 
 [:smile:](http://www.emoji-cheat-sheet.com/)
-
-
-## 文档中心 ##
-1. [平台概述](/doc/plat)
-
