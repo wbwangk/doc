@@ -4,7 +4,7 @@ layout: page
 <div class="jumbotron">
   <div class="container">
     <h1>imai云开发者中心</h1>
-    <p>imai云开发者中心借助github为组件开发者提供了一套组件开发的最佳实践，目的是建设一套围绕组件整个生命周期的生态系统，让组件更开放、更灵活，并且使组件能够持续的进化升级</p>
+    <p>imai云开发者中心借助github为组件开发者提供了一套组件开发的最佳实践，目的是建设一套围绕组件整个生命周期的生态系统，让组件更开放、更灵活，促进组件的持续升级与进化。</p>
     <p><a class="btn btn-primary btn-lg" href="http://imaidev.github.io/doc/plat" role="button">了解更多 &raquo;</a></p>
   </div>
 </div>
