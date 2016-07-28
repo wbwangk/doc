@@ -4,7 +4,7 @@ layout: page
 <script src="https://dev.imaicloud.com/adm-web/skins/js/shotcut.js" type="text/javascript"></script>
 <div class="jumbotron">
   <div class="container">
-    <h1>imai云开发者中心<small class="adm-block" id="ADM_SHORTCUT"></small></h1>
+    <h1>imai云开发者中心</h1><div class="adm-block" id="ADM_SHORTCUT"></div>
     <p>imai云开发者中心借助github为组件开发者提供了一套组件开发的最佳实践，目的是建设一套围绕组件整个生命周期的生态系统，让组件更开放、更灵活，促进组件的持续升级与进化。</p>
     <p><a class="btn btn-primary btn-lg" href="https://github.com/imaidev/imaidev.github.io" role="button">github &raquo;</a></p>
   </div>
