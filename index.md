@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+<script src="https://dev.imaicloud.com/adm-web/skins/js/shotcut.js" type="text/javascript"></script>
 <div class="jumbotron">
   <div class="container">
     <h1>imai云开发者中心</h1>
@@ -42,5 +43,10 @@ layout: page
       <p><a class="btn btn-default" href="https://ethercalc.imaicloud.com" role="button">ethercalc &raquo;</a>
          <a class="btn btn-default" href="http://dockerui2.imaicloud.com/" role="button">dockerui2 &raquo;</a></p>
    </div>
-  </div></div> 
-[:smile:](http://www.emoji-cheat-sheet.com/)
+  </div>
+</div> 
+<div class="adm-block" id="ADM_SHORTCUT">
+    <script type="text/javascript">
+        window.ADM_SHORTCUT.init();
+    </script>
+</div>
