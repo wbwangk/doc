@@ -41,7 +41,7 @@ layout: page
       <h2>其他</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
       <p><a class="btn btn-default" href="https://ethercalc.imaicloud.com" role="button">ethercalc &raquo;</a>
-         <a class="btn btn-default" href="http://dockerui2.imaicloud.com/" role="button">dockerui2 &raquo;</a></p>
+         <a class="btn btn-default" href="https://dev.imaicloud.com/files" role="button">文件管理 &raquo;</a></p>
    </div>
   </div>
 </div> 
