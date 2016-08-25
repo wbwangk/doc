@@ -14,7 +14,7 @@ layout: page
     <div class="col-md-4">
       <h2>容器管理</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-default" href="https://dockerui.imaicloud.com" role="button">进入 &raquo;</a>
+      <p><a class="btn btn-info" href="https://dockerui.imaicloud.com" role="button">进入 &raquo;</a>
          <a class="btn btn-default" href="https://registry.imaicloud.com" role="button">镜像库 &raquo;</a></p>
     </div>
     <div class="col-md-4">
