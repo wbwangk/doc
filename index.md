@@ -41,7 +41,9 @@ layout: page
       <h2>其他</h2>
       <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
       <p><a class="btn btn-danger" href="https://ethercalc.imaicloud.com" role="button">ethercalc &raquo;</a>
-         <a class="btn btn-danger" href="http://disk.imaicloud.com" role="button">网盘 &raquo;</a></p>
+         <a class="btn btn-danger" href="http://disk.imaicloud.com" role="button">网盘 &raquo;</a>
+         <a class="btn btn-danger" href="http://kevin.xtermjs.imaicloud.com/" role="button">xtermjs &raquo;</a>
+      </p>
    </div>
   </div>
 </div> 
