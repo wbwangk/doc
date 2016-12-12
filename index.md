@@ -14,7 +14,7 @@ layout: page
     <div class="col-md-4">
       <h2>容器管理</h2>
       <p>基于Docker Swarm，为组件服务、工具服务和BaaS服务提供Docker运行环境和管理界面。提供本地Docker镜像库。 </p>
-      <p><a class="btn btn-primary" href="https://dockerui.imaicloud.com" role="button">进入 &raquo;</a>
+      <p><a class="btn btn-primary" target="dockercloud" href="http://dev.imaicloud.com/dc-web/views/services/list.html" role="button">容器服务 &raquo;</a>
          <a class="btn btn-primary" href="https://registry.imaicloud.com" role="button">镜像库 &raquo;</a></p>
     </div>
     <div class="col-md-4">
@@ -28,8 +28,7 @@ layout: page
       <p>对应用开发中的常用组件进行抽象、封装、托管运行成为组件云服务。应用开发者可以在应用后台代码或界面代码直接调用组件或将组件界面嵌入到网页中。组件界面代码是开源的，可以定制，并提供了定制后界面运行环境。 </p>
       <p><a class="btn btn-success" href="https://iam.imaicloud.com" role="button">用户认证 &raquo;</a>
          <a class="btn btn-success" href="http://ocs.imaicloud.com" role="button">在线客服 &raquo;</a>
-         <a class="btn btn-success" target="dockercloud" href="http://dev.imaicloud.com/dc-web/views/services/list.html" role="button">DockerCloud &raquo;</a>
-         </p>
+      </p>
    </div>
   </div>
   <div class="row">
