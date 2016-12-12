@@ -27,7 +27,9 @@ layout: page
       <h2>组件服务</h2>
       <p>对应用开发中的常用组件进行抽象、封装、托管运行成为组件云服务。应用开发者可以在应用后台代码或界面代码直接调用组件或将组件界面嵌入到网页中。组件界面代码是开源的，可以定制，并提供了定制后界面运行环境。 </p>
       <p><a class="btn btn-success" href="https://iam.imaicloud.com" role="button">用户认证 &raquo;</a>
-         <a class="btn btn-success" href="http://ocs.imaicloud.com" role="button">在线客服 &raquo;</a></p>
+         <a class="btn btn-success" href="http://ocs.imaicloud.com" role="button">在线客服 &raquo;</a>
+         <a class="btn btn-success" href="http://dev.imaicloud.com/dc-web/views/services/list.html" role="button">在线客服 &raquo;</a>
+         </p>
    </div>
   </div>
   <div class="row">
